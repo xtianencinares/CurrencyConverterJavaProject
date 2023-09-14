@@ -17,7 +17,7 @@ import java.util.ResourceBundle;
 public class AboutWindow extends JFrame {
 	private static final ResourceBundle BUNDLE = ResourceBundle.getBundle("localization.translation"); //$NON-NLS-1$
 	private JPanel contentPane;
-	private static AboutWindow windowInstance = null;
+     	private static AboutWindow windowInstance = null;
 
 	/**
 	 * Create the aboutWindow frame
