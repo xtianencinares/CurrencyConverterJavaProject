@@ -9,8 +9,8 @@ public class JTextFieldLimit extends PlainDocument {
   private boolean toUppercase = false;
   
   JTextFieldLimit(int limit) {
-   super();
-   this.limit = limit;
+    super();
+    this.limit = limit;
    }
    
   JTextFieldLimit(int limit, boolean upper) {
