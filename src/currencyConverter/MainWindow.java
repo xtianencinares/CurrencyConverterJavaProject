@@ -190,7 +190,7 @@ public class MainWindow extends JFrame {
 					exchangeValue = currencies.get(i).getExchangeValues().get(shortNameCurrency2);
 					price = Currency.convert(amount, exchangeValue);
 					break;
-				}
+			    }
 			}
 		}
 		
