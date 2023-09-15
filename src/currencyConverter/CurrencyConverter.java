@@ -17,7 +17,7 @@ public class CurrencyConverter {
 				try {
 				       // Create and show main window at startup
 					 MainWindow mainWindow = new MainWindow();
-					 mainWindow.setVisible(true);
+				 mainWindow.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
