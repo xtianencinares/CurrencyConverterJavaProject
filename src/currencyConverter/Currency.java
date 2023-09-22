@@ -11,7 +11,7 @@ public class Currency {
 	// "Currency" Constructor
 	public Currency(String nameValue, String shortNameValue) {
 		this.name = nameValue;
-		this.shortName = shortNameValue;
+	 	this.shortName = shortNameValue;
 	}
 	
 	// Getter for name
