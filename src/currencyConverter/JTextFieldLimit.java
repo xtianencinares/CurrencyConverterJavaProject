@@ -18,7 +18,7 @@ public class JTextFieldLimit extends PlainDocument {
    this.limit = limit;
    toUppercase = upper;
    }
- 
+  
   public void insertString
     (int offset, String  str, AttributeSet attr)
       throws BadLocationException {
