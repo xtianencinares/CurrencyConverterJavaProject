@@ -14,7 +14,7 @@ public class CurrencyConverter {
 		
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
-				try {
+				try { 
 				       // Create and show main window at startup
 					 MainWindow mainWindow = new MainWindow();
 				 mainWindow.setVisible(true);
