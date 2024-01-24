@@ -15,7 +15,7 @@ public class CurrencyConverter {
         exchangeRates.put("USD", 1.0);
         exchangeRates.put("EUR", 0.88);
         exchangeRates.put("GBP", 0.74);
-        exchangeRates.put("JPY", 108.96);
+        exchangeRates.put("JPY", 108.96); 
     }
 
     public double convertCurrency(double amount, String fromCurrency, String toCurrency) {
