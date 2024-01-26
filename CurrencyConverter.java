@@ -14,7 +14,7 @@ public class CurrencyConverter {
         // Hardcoded exchange rates (as of the knowledge cutoff date)
         exchangeRates.put("USD", 1.0); 
         exchangeRates.put("EUR", 0.88);
-        exchangeRates.put("GBP", 0.74);
+        exchangeRates.put("GBP", 0.74);   
         exchangeRates.put("JPY", 108.96); 
     }
 
