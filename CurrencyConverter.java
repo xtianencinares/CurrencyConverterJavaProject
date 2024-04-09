@@ -36,7 +36,7 @@ public class CurrencyConverter {
         System.out.print("Enter the currency code to convert from (e.g., USD, EUR, GBP, JPY): ");
         String fromCurrency = scanner.next().toUpperCase();
 
-        System.out.print("Enter the currency code to convert to (e.g., USD, EUR, GBP, JPY): ");
+        System.out.print("Enter the currency code to convert to (e.g., USD, EUR, GBP, JPY): "); 
         String toCurrency = scanner.next().toUpperCase();
 
         double convertedAmount = converter.convertCurrency(amount, fromCurrency, toCurrency);
