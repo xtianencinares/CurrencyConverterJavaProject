@@ -25,7 +25,7 @@ public class CurrencyConverter {
         // Conversion formula: amount * (toRate / fromRate) 
         return amount * (toRate / fromRate);
     }
-
+ 
     public static void main(String[] args) {
         CurrencyConverter converter = new CurrencyConverter();
         Scanner scanner = new Scanner(System.in);
