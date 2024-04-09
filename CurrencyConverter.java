@@ -10,7 +10,7 @@ public class CurrencyConverter {
         initializeExchangeRates();
     }
 
-    private void initializeExchangeRates() {
+    private void initializeExchangeRates() {     
         // Hardcoded exchange rates (as of the knowledge cutoff date) can Be change
         exchangeRates.put("USD", 1.0);  
         exchangeRates.put("EUR", 0.88);
