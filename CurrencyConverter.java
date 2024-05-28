@@ -22,7 +22,6 @@ public class CurrencyConverter {
         double fromRate = exchangeRates.get(fromCurrency);
         double toRate = exchangeRates.get(toCurrency);
 
-        // Conversion formula: amount * (toRate / fromRate) 
         return amount * (toRate / fromRate);
     }
  
