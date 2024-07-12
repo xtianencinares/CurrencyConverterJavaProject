@@ -43,4 +43,4 @@ public class CurrencyConverter {
         System.out.println(amount + " " + fromCurrency + " is equal to " + convertedAmount + " " + toCurrency);
     }
 }
-//Agoo Finace use only v1
+//Agoo Finace use only v2.0
